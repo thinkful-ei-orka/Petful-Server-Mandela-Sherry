@@ -6,7 +6,7 @@ module.exports = {
     'Jim Lahey',
     'Armon Bofgid',
     'Sigmund Johnson',
-    'Hattie Mattie'
+    'Hattie Mattie',
   ],
 
   dogs: [
