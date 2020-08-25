@@ -1,8 +1,12 @@
+/* eslint-disable indent */
 module.exports = {
   people: [
     'Randy Lahey',
     'Trevor Cory',
-    'Jim Lahey'
+    'Jim Lahey',
+    'Armon Bofgid',
+    'Sigmund Johnson',
+    'Hattie Mattie'
   ],
 
   dogs: [
@@ -227,4 +231,4 @@ module.exports = {
       story: 'Found in neighborhood'
     }
   ]
-}
+};
