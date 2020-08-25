@@ -23,6 +23,13 @@ module.exports = {
     return [nextCat, nextDog];
   },
 
+  getFirst() {
+    let cat = pets.cats.showFirst();
+    console.log(' first cat', cat);
+    let dog = pets.dogs.showFirst();
+    return [cat, dog];
+  },
+
   dequeue(type) {
     // Remove a pet from the queue.
     if(type.toLowerCase() === 'cat') {

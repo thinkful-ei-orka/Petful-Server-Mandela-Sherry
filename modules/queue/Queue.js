@@ -46,6 +46,11 @@ class Queue {
     return this.first.next.data;
   }
 
+  showFirst() {
+    //Returns the info for the first item in the queue
+    return this.first.data;
+  }
+
   all() {
     // Return all items in the queue.
     let node = this.first;
@@ -54,6 +59,7 @@ class Queue {
     while (node.next !== null) {
       all.push(node.data);
       node = node.next;
+      if (node.next === null) all.push(node.data);
     }
 
     return all;
