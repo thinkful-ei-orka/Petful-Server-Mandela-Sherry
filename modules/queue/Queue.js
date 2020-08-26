@@ -56,10 +56,13 @@ class Queue {
     let node = this.first;
     let all = [];
 
-    while (node.next !== null) {
+    if(node.first === null && node.last === null) {
+      return 'No data in queue';
+    } 
+
+    while (node) {
       all.push(node.data);
       node = node.next;
-      if (node.next === null) all.push(node.data);
     }
 
     return all;

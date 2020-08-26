@@ -18,14 +18,14 @@ store.dogs.forEach(dog => pets.dogs.enqueue(dog));
 module.exports = {
   get() { 
     let nextCat = pets.cats.show();
-    console.log(pets.cats.show());
+    // console.log(pets.cats.show());
     let nextDog =pets.dogs.show();
     return [nextCat, nextDog];
   },
 
   getFirst() {
     let cat = pets.cats.showFirst();
-    console.log(' first cat', cat);
+    // console.log(' first cat', cat);
     let dog = pets.dogs.showFirst();
     return [cat, dog];
   },
