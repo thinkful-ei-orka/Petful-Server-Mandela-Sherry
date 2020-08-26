@@ -25,6 +25,7 @@ module.exports = {
 
   dequeue() {
     people.dequeue();
+    console.log('deleted someone!')
     return 'Someone left the adoption line';
   }
 };

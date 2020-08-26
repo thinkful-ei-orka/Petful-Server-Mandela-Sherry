@@ -56,7 +56,7 @@ class Queue {
     let node = this.first;
     let all = [];
 
-    if(node.first === null && node.last === null) {
+    if(this.first === null && this.last === null) {
       return 'No data in queue';
     } 
 
